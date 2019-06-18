@@ -1,0 +1,2 @@
+A python code encode/decode images with AES. You need numpy, opencv-python and pycroptodemo first.
+In this code, I also used cython to convert c code to ".so" file which can be imported by python. And this helps accelerating for-loops in python. To make it work, you need complie the c code to ".so", just typping in terminal: "python setup.py build_ext -i" . Then you can run "crypto_pic_with_aes_python_and_c.py" file for test.
